@@ -1,4 +1,3 @@
-// Write your code here
 import './index.css'
 
 const SuggestionItem = props => {
@@ -8,6 +7,7 @@ const SuggestionItem = props => {
   const onClickSuggestion = () => {
     updateSearchInput(suggestion)
   }
+
   return (
     <li className="suggestion-item">
       <p className="suggestion-text">{suggestion}</p>
